@@ -29,6 +29,10 @@ class Program
         Console.WriteLine("Using Interpolation:");
         Console.WriteLine($"Sum: {sumvalue} \n Average: {averagevalue}");
 
+        //Step 7: Output Two Comparisons
+        Console.WriteLine($" {userInput} > {userInput2}  {userInput > userInput2}");
+        Console.WriteLine($" {userInput2} == {userInput}  {userInput2 == userInput}");
+        
     }
 }
 
