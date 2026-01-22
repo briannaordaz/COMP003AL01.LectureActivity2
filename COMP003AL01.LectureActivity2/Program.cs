@@ -8,12 +8,15 @@ class Program
     {
         
         Console.WriteLine("Enter The First Number:");
-        string userInput = Console.ReadLine();
+        double userInput = double.Parse(Console.ReadLine());
+        
         
         
         Console.WriteLine("Enter The Second Number:");
-        string userInput2 = Console.ReadLine(); 
+        double userInput2 = double.Parse(Console.ReadLine());
     
+        
+           
 
 
 
